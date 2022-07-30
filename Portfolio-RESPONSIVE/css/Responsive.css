@@ -1,0 +1,109 @@
+
+/* Medium Desktop : 992px */
+
+@media (min-width: 992px) and (max-width:1200px){
+    .container{max-width:970px;}
+    html{font-size: 57.5%;}
+    .menu_area ul li {padding-left: 1.5rem;padding-right: 1.5rem;}
+    .service-section-wrap{padding-left: 0;padding-right: 0;}
+    .single-client-content {padding-left: 25px;}
+    .single-client-content p {width: 25rem;}
+
+}
+
+/* Tablet Desktop : 768px */
+
+@media (min-width: 768px) and (max-width:991px){
+    .container{max-width:750px;}
+    html {font-size: 52.5%;}
+    .menu_area ul{display: none;}
+    .mobile-menu-bar {display: block;position: absolute;right: -42%;}
+    .banner-intro h1 {font-size: 5.5rem;}
+    .banner-intro h3 {font-size: 4rem;}
+    .about-intro h2 {font-size: 4rem;}
+    .about-intro p { width: 42rem;}
+    .brand-experience img {left: -4rem;width: 86px;}
+    .service-section-wrap{padding-left: 0;padding-right: 0;}
+    .service-padding{padding: 2px;}
+    .each_portfolio.img-4 {padding-top: 18px;padding-bottom: 18px;}
+    .each_portfolio.img-7 {padding-top: 18px;padding-bottom: 18px;}
+    .client-section .heading p {width: 83.8rem;}
+
+}
+
+
+/* Large Mobile :480px */
+
+
+@media only screen and (min-width: 576px) and (max-width:767px){
+    html {font-size: 48.5%;}
+    .container{max-width:550px;}
+    .menu_area ul{display: none;}
+    .mobile-menu-bar {display: block;right: -42%;position: absolute;}
+    .banner-intro h1 {font-size: 4rem;}
+    .banner-intro h3 {font-size: 3rem;}
+    .banner-intro h3::before {width: 25rem;}
+    .banner-btn .btn-2 button {margin-left: 2.5rem}
+    .about-intro h2 {font-size: 2.5rem;}
+    .about-intro p { width: 30rem;}
+    .brand-experience img {left: -4rem;width: 86px;}
+    .service-padding{padding: 4px;}
+    .each_portfolio.img-4 {padding-top: 18px;padding-bottom: 18px;}
+    .each_portfolio.img-7 {padding-top: 18px;padding-bottom: 18px;}
+    .client-section .heading p {width: 67.8rem;}
+    .single-client-img {display: flex;justify-content: center;}
+    .single-client-content {text-align: center;}
+    .single-client-content p {display: inline-block;width: 25rem;}
+    .email-submit {display: block;}
+    .contact-email {padding-right: 0;padding-bottom: 15px;}
+    
+    
+}
+
+/* small Mobile :320px */
+
+@media only screen and (max-width:575px){
+    .container{max-width:300px;}
+    html {font-size: 45.5%;}
+    .menu_area ul{display: none;}
+    .mobile-menu-bar {display: block;right: -52%;position: absolute;}
+    .banner-intro h1 {font-size: 4rem;}
+    .banner-intro h3 {font-size: 3rem;}
+    .header_logo {margin-left: -35px;}
+    .banner-intro h1 {font-size: 3rem;}
+    .banner-intro h3 {font-size: 2rem;}
+    .banner-intro h3::before {width: 15rem;}
+    .banner-intro h3 {padding-bottom: 11px;}
+    .banner-intro h4 {font-size: 1.6rem;}
+    .banner-btn .btn-2 button {margin-left: 1.5rem;}
+    .banner-btn button {padding: 1rem 4rem;}
+    .banner-btn button {font-size: 1.4rem;}
+    .about-intro h2 {font-size: 2.5rem;}
+    .about-intro p { width: 30rem;}
+    .service-section-wrap{padding-left: 0;padding-right: 0;}
+    .service-padding{padding: 4px;}
+    .project-section h2 {font-size: 3rem;width: 49rem;}
+    .each_portfolio {padding-bottom: 20px;}
+    .filter_tab ul li {padding-right: 1.3rem;}
+    .heading h2 {font-size: 3rem;}
+    .client-section .heading p { width: 37.8rem;}
+    .single-client-content p {width: 29rem;}
+    .contact-wrap h3 { margin-left: -67px;width: 193px;}
+    .contact-wrap p {width: 193px;margin-left: -65px;}
+    .email-submit {display: block;}
+    .contact-email {padding-right: 0;padding-bottom: 15px;}
+    .contact-email input {margin-left: -46px; width: 25rem;}
+    .contact-submit input {margin-left: -8px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

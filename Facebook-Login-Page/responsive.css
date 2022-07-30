@@ -1,0 +1,11 @@
+@media screen and (max-width:980px){
+    .logo-area{
+        width:100%;
+        display: block;
+        text-align: center;
+    
+    }
+    .login-area{
+        width: 100%;
+    }
+}
